@@ -31,9 +31,9 @@ body {
     background-color: black;
     width: 800px;
     margin: 0 auto;
-    font-family: 'Titan One', cursive;
+    font-family: 'Cinzel', serif;
     font-weight: 200;
-    animation: fade-screen-in 2s ease-in;
+    animation: fade-screen-in 500ms ease-in;
 }
 
 h1 {
@@ -41,9 +41,28 @@ h1 {
     color: goldenrod;
     text-align: center;
     margin-top: 230px;
-    font-weight: 100;
+    font-weight: 500;
     padding: 0;
-    animation: color-change 5s infinite alternate;
+    animation: color-change 4s infinite alternate;
+}
+
+h2 a {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+h2 a:hover {
+    color: goldenrod;
+}
+
+p a {
+    color: white;
+}
+
+p a:hover {
+    color: goldenrod;
 }
 
 p {
@@ -60,8 +79,51 @@ p {
     margin-top: 60px;
 }
 
-.contactInfo {
-    margin-top: 130px;
+.projects {
+    margin-top: 60px;
+}
+
+
+.contact-container {
+    position: relative;
+    top: -30px;
+}
+
+.contact-info {
+    text-align: justify;
+    display: table-cell;
+    font-size: 30px;
+    padding-left: 30px;
+    position: relative;
+    top: 60px;
+}
+
+.about-info {
+    text-align: justify;
+    font-size: 28px;
+    padding: 10px;
+    position: relative;
+    top: -40px;
+    color: white;
+    line-height: 1.3;
+}
+
+.projectInfo {
+    text-align: justify;
+    display: table-cell;
+    font-size: 22px;
+}
+
+.project-container {
+    position: relative;
+    top: -30px;
+    text-align: center;
+}
+
+.project-img {
+    width: 50%;
+    float: left;
+    padding-right: 10px;
 }
 
 nav {
@@ -80,9 +142,19 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    padding: 80px;
+    padding: 17px 80px 17px 80px;
     color: white;
     cursor: pointer;
+}
+
+nav a:hover {
+    color: goldenrod;
+    background-color: black;
+}
+
+nav a.active {
+    color: goldenrod;
+    background-color: black;
 }
 
 ul {
@@ -94,7 +166,6 @@ ul {
     padding-top: 15px;
 }
 
-
 li {
     list-style: none;
     text-align: center;
@@ -102,6 +173,7 @@ li {
     margin: 0 auto;
     text-decoration: none;
 }
+
 
 .github {
     width: 50px;
@@ -120,4 +192,11 @@ li {
     background-color: goldenrod;
     margin-bottom: 400px;
     cursor: pointer;
+}
+
+#grant {
+    width: 50%;
+    border: 5px solid goldenrod;
+    border-radius: 10%;
+    float: left;
 }
