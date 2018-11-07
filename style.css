@@ -46,6 +46,20 @@ h1 {
     animation: color-change 4s infinite alternate;
 }
 
+.grant {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    align-content: flex-start;
+    overflow-y: scroll;
+    font-family: 'Syncopate', sans-serif;
+    width: 100%;
+    font-size: 90px;
+}
+
 h2 a {
     text-transform: uppercase;
     font-size: 30px;
@@ -109,20 +123,26 @@ p {
 }
 
 .projectInfo {
-    text-align: justify;
-    display: table-cell;
+    display: flex;
+    justify-content: flex-start;
     font-size: 22px;
+    color: white;
 }
 
 .project-container {
-    position: relative;
-    top: -30px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    align-content: flex-start;
+    overflow-y: scroll;
 }
 
 .project-img {
+    display: flex;
     width: 50%;
-    float: left;
     padding-right: 10px;
 }
 
@@ -142,7 +162,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    padding: 17px 80px 17px 80px;
+    display: flex;
     color: white;
     cursor: pointer;
 }
