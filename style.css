@@ -114,27 +114,31 @@ p {
 
 
 .contact-container {
-    position: relative;
-    top: -30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    align-content: flex-start;
 }
 
 .contact-info {
     text-align: justify;
     display: table-cell;
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 30px;
-    position: relative;
-    top: 60px;
 }
 
 .about-info {
+    display: flex;
+    justify-content: flex-start;
     text-align: justify;
-    font-size: 28px;
-    padding: 10px;
-    position: relative;
-    top: -40px;
+    font-size: 22px;
+    padding: 15px;
     color: white;
-    line-height: 1.3;
+    line-height: 1.5;
+    margin: 10px 50px 10px 50px;
 }
 
 .projectInfo {
@@ -142,6 +146,9 @@ p {
     justify-content: flex-start;
     font-size: 22px;
     color: white;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px 50px 10px 50px;
 }
 
 .project-container {
@@ -256,10 +263,11 @@ nav li {
 }
 
 #grant {
-    width: 50%;
+    display: flex;
+    width: 300px;
     border: 5px solid goldenrod;
     border-radius: 10%;
-    float: left;
+    margin-left: 20px;
 }
 
 @media only screen and (max-width: 540px) {
