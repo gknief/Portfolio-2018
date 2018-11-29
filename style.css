@@ -124,7 +124,8 @@ p {
 }
 
 .contact-info {
-    text-align: justify;
+    text-align: left;
+    text-justify: inter-word;
     display: table-cell;
     font-size: 25px;
     padding-left: 30px;
@@ -133,7 +134,8 @@ p {
 .about-info {
     display: flex;
     justify-content: flex-start;
-    text-align: justify;
+    text-align: left;
+    text-justify: inter-word;
     font-size: 22px;
     padding: 15px;
     color: white;
@@ -146,7 +148,8 @@ p {
     justify-content: flex-start;
     font-size: 22px;
     color: white;
-    text-align: justify;
+    text-align: left;
+    text-justify: inter-word;
     padding: 10px;
     line-height: 1.5;
     margin: 10px 50px 10px 50px;
@@ -161,6 +164,8 @@ p {
     flex-flow: column;
     align-content: flex-start;
     overflow-y: scroll;
+    margin-bottom: 50px;
+    margin-top: -40px;
 }
 
 .project-img {
